@@ -1,0 +1,113 @@
+{
+  "contractName": "PengToken",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/PengToken.sol\":\"PengToken\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/PengToken.sol\":{\"keccak256\":\"0xb235061e7258d665d8e597d345de10ba9212fa8b12c4f61664bf76e7008b847e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d45cabf0a7cf078559c86a69062d004bcf0377faa3c87dcc74a5448fada576a1\",\"dweb:/ipfs/Qmbg8y5Qnwy54hf1Nswi46Rx7CMHHbGC4Bo4AJRPv46m9n\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220902dfa28e8e895ccf91cdeaf189da74b0650eac233e68e7212ac825cba51156264736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220902dfa28e8e895ccf91cdeaf189da74b0650eac233e68e7212ac825cba51156264736f6c63430008000033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:51:6:-:0;;;89:26;;;;;;;;;;66:51;;;;;;",
+  "deployedSourceMap": "66:51:6:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract PengToken {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "/Users/junemp/WorkSpace/truffleprj/secondprj/contracts/PengToken.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/PengToken.sol",
+    "exportedSymbols": {
+      "PengToken": [
+        855
+      ]
+    },
+    "id": 856,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 850,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:6"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 855,
+        "linearizedBaseContracts": [
+          855
+        ],
+        "name": "PengToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 853,
+              "nodeType": "Block",
+              "src": "110:5:6",
+              "statements": []
+            },
+            "id": 854,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 851,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "100:2:6"
+            },
+            "returnParameters": {
+              "id": 852,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "110:0:6"
+            },
+            "scope": 855,
+            "src": "89:26:6",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 856,
+        "src": "66:51:6"
+      }
+    ],
+    "src": "32:86:6"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2022-05-01T07:22:17.425Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
